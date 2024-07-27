@@ -14,6 +14,7 @@ header {
     background-color: rgb(255, 255, 255);
     padding-top: 10px;
 
+
 }
 
 .logo {
@@ -179,7 +180,7 @@ input[type="text"] {
     display: none;
     cursor: pointer;
     color: black;
-    
+
 }
 
 .clothing-img:hover .clothing-icons {
@@ -188,11 +189,13 @@ input[type="text"] {
 
 .clothing-img:hover {
     background-image: url(./assets/img/product-1-2.jpg);
+    transition: 3s;
 
 }
 
 .layer:hover {
-    opacity: 0.5;
+    opacity: 0.9;
+
 }
 
 .clothing-text h4 {
@@ -204,7 +207,7 @@ input[type="text"] {
     color: green;
     font-size: 20px;
     margin-bottom: -1vh;
-   
+
 
 }
 
@@ -226,7 +229,7 @@ input[type="text"] {
 
 .clothing-bag {
     display: flex;
-    justify-content: space-between;
+    gap: 60px;
     cursor: pointer;
 }
 
@@ -256,7 +259,7 @@ input[type="text"] {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-   
+
 }
 
 .clothing-imgone:hover .clothing-icons {
@@ -268,6 +271,7 @@ input[type="text"] {
 
 .clothing-imgone:hover {
     background-image: url(./assets/img/product-2-2.jpg);
+    transition: 4s;
 }
 
 .clothing-imgtwo {
@@ -280,6 +284,7 @@ input[type="text"] {
     justify-content: center;
     border-radius: 10px;
 }
+
 .clothing-imgtwo:hover .clothing-icons {
     display: block;
     display: flex;
@@ -287,8 +292,10 @@ input[type="text"] {
     justify-content: center;
 
 }
+
 .clothing-imgtwo:hover {
     background-image: url(./assets/img/product-3-2.jpg);
+    transition: 3s;
 }
 
 .clothing-imgthree {
@@ -301,6 +308,7 @@ input[type="text"] {
     justify-content: center;
     border-radius: 10px;
 }
+
 .clothing-imgthree:hover .clothing-icons {
     display: block;
     display: flex;
@@ -308,11 +316,13 @@ input[type="text"] {
     justify-content: center;
 
 }
+
 .clothing-imgthree:hover {
     background-image: url(./assets/img/product-4-2.jpg);
+    transition: 3s;
 }
 
-.clothing-imgfive{
+.clothing-imgfive {
     background-image: url("./assets/img/product-5-1.jpg");
     height: 250px;
     width: 260px;
@@ -322,6 +332,7 @@ input[type="text"] {
     justify-content: center;
     border-radius: 10px;
 }
+
 .clothing-imgfive:hover .clothing-icons {
     display: block;
     display: flex;
@@ -329,11 +340,13 @@ input[type="text"] {
     justify-content: center;
 
 }
+
 .clothing-imgfive:hover {
     background-image: url(./assets/img/product-5-2.jpg);
+    transition: 3s;
 }
 
-.clothing-imgsix{
+.clothing-imgsix {
     background-image: url("./assets/img/product-6-1.jpg");
     height: 250px;
     width: 260px;
@@ -343,6 +356,7 @@ input[type="text"] {
     justify-content: center;
     border-radius: 10px;
 }
+
 .clothing-imgsix:hover .clothing-icons {
     display: block;
     display: flex;
@@ -350,11 +364,13 @@ input[type="text"] {
     justify-content: center;
 
 }
+
 .clothing-imgsix:hover {
     background-image: url(./assets/img/product-6-2.jpg);
+    transition: 3s;
 }
 
-.clothing-imgseven{
+.clothing-imgseven {
     background-image: url("./assets/img/product-7-1.jpg");
     height: 250px;
     width: 260px;
@@ -364,6 +380,7 @@ input[type="text"] {
     justify-content: center;
     border-radius: 10px;
 }
+
 .clothing-imgseven:hover .clothing-icons {
     display: block;
     display: flex;
@@ -371,11 +388,13 @@ input[type="text"] {
     justify-content: center;
 
 }
+
 .clothing-imgseven:hover {
     background-image: url(./assets/img/product-7-2.jpg);
+    transition: 3s;
 }
 
-.clothing-imgnine{
+.clothing-imgnine {
     background-image: url("./assets/img/product-8-1.jpg");
     height: 250px;
     width: 260px;
@@ -385,6 +404,7 @@ input[type="text"] {
     justify-content: center;
     border-radius: 10px;
 }
+
 .clothing-imgnine:hover .clothing-icons {
     display: block;
     display: flex;
@@ -392,65 +412,74 @@ input[type="text"] {
     justify-content: center;
 
 }
+
 .clothing-imgnine:hover {
     background-image: url(./assets/img/product-8-2.jpg);
+    transition: 3s;
 }
 
 .time-img article {
     height: 40px;
     width: 40px;
     background-color: rgb(65, 172, 152);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 
-  
+
 }
-.time-img{
+
+.time-img {
     background-image: url(./assets/img/deals-1.jpg);
-    background-size: 100% 100% ;
+    background-size: 100% 100%;
     width: 47%;
     height: 420px;
 }
-.time-imgone{
+
+.time-imgone {
     background-image: url(./assets/img/deals-2.png);
-    background-size: 100% 100% ;
+    background-size: 100% 100%;
     width: 47%;
     height: 420px;
 }
+
 .time-imgone article {
     height: 40px;
     width: 40px;
     background-color: rgb(65, 172, 152);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 
 }
-.time-text{
+
+.time-text {
     position: relative;
     top: 40px;
     margin-left: 20px;
-    
-}
-.time-text h1{
-    color:rgb(51, 162, 142) ;
+
 }
 
-.time-date{
+.time-text h1 {
+    color: rgb(51, 162, 142);
+}
+
+.time-date {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
     height: 200px;
-   
+
 }
-.time-date h3{
+
+.time-date h3 {
     margin-top: 5px;
 
 }
-.time-button{
+
+.time-button {
     height: 40px;
     width: 100px;
     position: relative;
@@ -458,43 +487,49 @@ input[type="text"] {
     left: 30px;
     cursor: pointer;
     color: rgb(65, 172, 152);
-   background-color: none;
-   border: 1px solid rgb(65, 172, 152);
-   border-radius: 10px;
+    background-color: none;
+    border: 1px solid rgb(65, 172, 152);
+    border-radius: 10px;
 }
-.time-strike{
+
+.time-strike {
     color: red;
     font-size: large;
 }
-.time-main{
+
+.time-main {
     display: flex;
     gap: 30px;
-   margin-left: 40px;
+    margin-left: 40px;
 }
 
-.new-arrivals{
+.new-arrivals {
     display: flex;
     margin-left: 35px;
     gap: 20px;
 
 }
-.Hot{
+
+.Hot {
     display: flex;
     justify-content: space-evenly;
-   
-    
+
+
 }
-.Hot article{
+
+.Hot article {
     display: flex;
     gap: 15px;
     margin-top: 20px;
 }
-.Hot img{
+
+.Hot img {
     height: 100px;
     width: 100px;
-  
+
 }
-.Newsletter{
+
+.Newsletter {
     width: 100%;
     height: 15vh;
     background-color: rgb(163, 214, 206);
@@ -503,22 +538,27 @@ input[type="text"] {
     justify-content: space-around;
     align-items: center;
 }
-.Newsletter h4{
+
+.Newsletter h4 {
     cursor: pointer;
 }
-.fotter{
+
+.fotter {
     display: flex;
-justify-content: center;
-justify-content: space-around;
+    justify-content: center;
+    justify-content: space-around;
 }
-.fotter .adress{
+
+.fotter .adress {
     list-style: none;
 }
 
-.fotter h4,p{
+.fotter h4,
+p {
     margin: 0%;
     margin: 5px;
 }
+
 .last {
     display: grid;
     grid-template-columns: 80% 20%;
@@ -530,66 +570,75 @@ justify-content: space-around;
 
 .copyright {
     display: flex;
-    
+
 }
 
-.forword{
+.forword {
     display: flex;
     padding-left: 30px;
     background-color: rgb(231, 219, 227);
-  
+
 }
-.countnum{
+
+.countnum {
     display: flex;
     gap: 20px;
     justify-content: center;
     cursor: pointer;
 }
-.login-one{
+
+.login-one {
     height: 250px;
     width: 500px;
-    border: 1px solid rgb(208, 198, 198);
+    border: 1px solid rgb(183, 177, 177);
     padding-left: 20px;
     border-radius: 10px;
 }
-.login-two{
+
+.login-two {
     height: 350px;
     width: 500px;
-    border: 1px solid rgb(208, 198, 198);
+    border: 1px solid rgb(167, 163, 163);
     padding-left: 20px;
     border-radius: 10px;
 }
-.loginpage{
+
+.loginpage {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.sidebar{
+
+.sidebar {
     border: 1px solid black;
     border-bottom: 0px;
     height: 60px;
     width: 350px;
     display: flex;
-    gap:15px;
+    gap: 15px;
     cursor: pointer;
     margin-left: 50px;
 }
-.sidebar i{
-   margin-left: 20px;
-   margin-top: 20px;
+
+.sidebar i {
+    margin-left: 20px;
+    margin-top: 20px;
 }
-.sidebar h3{
+
+.sidebar h3 {
     font-weight: 300;
 }
 
-.sidebar-container{
+.sidebar-container {
     display: flex;
     gap: 20px;
 }
-.sidebar-text{
+
+.sidebar-textone {
     border: 1px solid black;
     height: 50px;
     width: 780px;
+    background-color: rgb(187, 227, 219);
 }
 
 
@@ -604,7 +653,7 @@ body {
     margin: 20px 0;
     font-size: 1em;
     text-align: left;
-   margin-left: 50px;
+    margin-left: 50px;
 }
 
 .product-table thead th {
@@ -613,12 +662,13 @@ body {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
+ 
 }
 
 .product-table tbody td {
     border: 1px solid #ddd;
     padding: 10px;
-    vertical-align: middle;
+    text-align: center;
 }
 
 .product-table img {
@@ -633,3 +683,21 @@ body {
     border-radius: 50%;
     margin-right: 5px;
 }
+
+.list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.clothing-bagstyle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(162, 230, 230);
+
+}
+.clothing-bagstyle span{
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
